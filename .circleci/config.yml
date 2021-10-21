@@ -1,7 +1,8 @@
 version: 2.1
 executor:
   cmmnd:
-    docker: maven:latest
+    docker:
+      image: maven:latest
 jobs:
   build-and-test:
    
